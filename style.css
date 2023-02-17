@@ -3,8 +3,9 @@
 .newspaper-container {
     width:700px;
     background-color: white;
-    box-shadow:#ddd;
-    border-radius:10px;
+    box-shadow:0 0 10px 5px #ddd;
+    padding:20px;
+    margin:70px auto;
 }
 
 body{
@@ -12,19 +13,86 @@ body{
     background-color:#eee;
 }
 
-header {
+header h1 {
     font-family:'Abril Fatface';
+    text-align:center;
+    font-size:2.5em;
+    margin:10px;
 }
 
 .article-title {
     font-family:'Roboto Slab';
 }
 
+h2.article-title {
+    margin:0px;
+    padding:0px;
+}
+
 .author {
     color:#dd3232;
+    font-family:'Abril Fatface';
+    padding:0px;
+    margin:10px 0px 20px;
 }
+
 
 nav li a {
     color:#777;
     text-decoration:none;
 }
+
+
+nav ul {
+    padding:0;
+    width:100%;
+    margin: 20px auto;
+    display:inline-block;
+    text-align:center;
+}
+
+nav li {
+    display: inline-block;
+    padding: 8px;
+    margin:0px;
+    color:#777;
+    text-decoration:none;
+    font-size:0.8em;
+}
+
+
+#front-page-img {
+    display: block;
+    width: 100%;
+    margin:auto;
+}
+
+main p {
+    margin:20px 10px;
+    text-align:justify;
+    font-size:0.9em;
+}
+
+/*.more-articles section {
+    display: inline-block;
+    width:35%;
+    margin:30px;
+    color:red;
+}
+
+
+
+.more-articles section img {
+    width:30%;
+}*/
+
+.more-articles section {
+    display: inline-block;
+    width: 45%;
+    margin: 0 0em 0 1.7em;
+}   
+.more-articles section p{
+    text-align:justify;
+    margin:15px 20px 10px 10px;
+    font-size:0.8em;
+}   
